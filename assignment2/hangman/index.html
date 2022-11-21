@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-image">
+        <img src="./quino-al-mBQIfKlvowM-unsplash.jpg" alt="">
+    </div>
+
+    <div class="container">
+        <h1>Guess The Animal!</h1>
+        <div class="content">
+            <input type="text" class="typing-input hidden" maxlength="1">
+            <div class="inputs"></div>
+            <div class="details">
+                <p class="tries-remaining">Number of attempts left: <span></span></p>
+                <p class="wrong-letter">Wrong Letters: <span></span></p>
+            </div> 
+        </div>
+    </div>
+
+    <!-- Container for popup message after losing -->
+
+    <div class="popup-container" id="popup-container">
+        <div class="popup">
+            <h2 id="final-message"></h2>
+            <button id="btn" class="btn">Play Again</button>
+        </div>
+    </div>
+
+    <!-- Notification -->
+
+    <div class="notification-container" id="notification-container">
+        <p>You have already entered this letter!</p>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
 
