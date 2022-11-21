@@ -1,0 +1,51 @@
+1. Why do we need a loop? How do you write a basic for loop?
+
+We need a loop to do the same things a certain number of times automatically, which may take a long time if we type it one by one by ourselves. For example, if you want to watch Peppa Pig 5 times, you tell the loop to load it 5 times, 
+and it will stop playing after the 5th time. Everything is done automaticallY and you can just sit down and watch Peppa Pig.
+
+To write a basic loop: 
+
+for(where you start; condition; how you want the loop to run, increasing or decreasing?) {
+
+     in this space, you tell the loop what you want to run! 
+}
+
+
+
+
+2. Difference between console.log() and return?
+
+console.log() means to print something. Imagine a printer printing the new word you just learnt. If you type 'console.log("Pokemon")', the printer will print out the word "Pokemon" for you.
+
+return is almost the same as console.log(), except that you tell the printer to keep this print for later, so it is kept inside the printer's system. You can choose to print out the word you returned when you type console.log() again.
+
+
+
+
+
+3. What are truthy values? What are falsy values?
+
+First, let's introduce "Boolean" expression. A boolean expression has 2 options, true and false. Think
+of it as saying "Yes" or "No" when your mother asks if you want to get pizza for dinner.
+
+True means correct; False means wrong, remember this. 
+
+Well, what are truthy values? 
+Truthy values are things that are considered true when asked if its true or false in a Boolean expression,
+while Falsy values are things that are considered false when asked if its true or false in a Boolean expression.  
+
+
+4. How does the internet work?
+
+You can think of the internet as a region in the Pokemon games you play. In a region, there are buildings, houses, forests which are connected to each other using roads and the sky. The 
+Internet is the same thing too! Every house or building has a signboard, which is in a certain city. For example, the Pokemon League in the Hoenn Region is in Ever Grande City, and you get to the Pokemon League by flying or cycling or 
+running. This is how you move from 1 website to another, it's the same concept. All the travelling you do via roads or the sky is Data used by the Internet to bring you from one place to another. 
+
+
+5. How does a website work? What files are involved?
+
+Think of a website as a house. There are 3 things you need to build a nice house. First, you need to use bricks to build the outer layer of your house.
+After that, you need to style it and make the decorations inside look pretty, like tables, chairs, and wallpapers. Finally you need to install things like your switches and taps to make sure your whole house functions well.
+
+A website is the same thing, there are 3 main files involved in a website, HTML (to build your shape and outer layer of your website), CSS (To style it) and Javascript (To make sure your website works well).
+Imagine these 3 files working together at the same time, and you get a good, proper website. This is how a website works!
