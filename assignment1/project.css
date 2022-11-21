@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 100%;
+    min-width: 1000px;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: 450px;
+    align-items: center;    
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    cursor: pointer;
+    min-width: 500px;
+    object-fit: cover;
+    object-position: left;
+}
+
+.search-bar {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    margin-top: 1.8rem;
+    position: relative;
+
+}
+
+.search-input {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    word-wrap: break-word;
+}
+
+.search-input input {
+    flex-grow: 1;
+    border-radius: 1rem;
+    border: 2px solid hsl(234,39% , 85%);
+    box-shadow: 0px 1px 1px hsl(234, 11%, 52%);
+    font-size: 30px;
+}
+
+.mic-icon {
+    position: absolute;
+    display: flex;
+    align-self: center;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+.bottom-btns {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    margin: 11px 4px;
+    padding: 15px 16px;
+    font-size: large;
+    border-radius: 15px;
+    border: 1px solid hsl(234,39% , 85%);
+    background-color: #EBECF0;
+    color: #2d2d2d;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    border: 1px solid hsl(234,39% , 85%);
+}
